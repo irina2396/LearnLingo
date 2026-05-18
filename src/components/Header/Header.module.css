@@ -1,4 +1,4 @@
-.header{
+.header {
     padding: 20px 0;
 }
 
@@ -8,11 +8,74 @@
     align-items: center;
 }
 
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 390px;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navLink {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #121417;
+}
+
 .logo {
-    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     color: #121417;
 }
+
+.authItem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttonLogin {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #121417;
+
+    transition: 0.2s ease;
+}
+
+.iconLogin {
+    stroke: #f4c550;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.buttonRegistration {
+    border-radius: 12px;
+    padding: 14px 39px;
+    height: 48px;
+
+    background-color: #121417;
+    color: #fff;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+
+    transition: 0.2s ease;
+}
+
