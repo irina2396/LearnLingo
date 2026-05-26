@@ -1,5 +1,5 @@
 .header {
-    padding: 20px 0;
+    padding: 20px 64px;
 }
 
 .headerContainer {
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     gap: 390px;
+    margin-right: 268px;
 }
 
 .navList {
